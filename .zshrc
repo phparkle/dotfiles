@@ -51,3 +51,12 @@ source ~/.powerlevel10k/powerlevel10k.zsh-theme
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
+
+# pnpm
+export PNPM_HOME="/home/parkle/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+# composer
+export PATH="/home/parkle/.composer/vendor/bin:$PATH"
+# composer end
