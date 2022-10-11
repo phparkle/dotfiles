@@ -58,5 +58,5 @@ export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
 # composer
-export PATH="/home/parkle/.composer/vendor/bin:$PATH"
+export PATH="/home/parkle/.config/composer/vendor/bin:$PATH"
 # composer end
